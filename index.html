@@ -1,13 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
     <title>Sign Up Form</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <div class="main">
+      <div class="side-image">
+        <img src="" alt="" class="side-hero-image" />
+      </div>
+      <div class="side-form">
+        <div class="main-form">
+          <form action="#" method="post">
+            <legend class="form-legend">Let's do this!</legend>
+
+            <label for="firstname" class="first-name">First Name</label>
+            <input type="text" id="firstname" placeholder="John" />
+
+            <label for="lastname" class="last-name">Last Name</label>
+            <input type="text" id="lastname" placeholder="Doe" />
+
+            <label for="email" class="email">Email</label>
+            <input type="email" id="email" placeholder="example@email.com" />
+
+            <label for="phonenumber" class="phonenumber">Phone Number</label>
+            <input type="numver" id="phonenumber" />
+
+            <label for="password" class="password">Password</label>
+            <input type="password" id="password" />
+
+            <label for="confirmPassword" class="confirm-password">Confirm Passowrd</label>
+            <input type="password" id="confirmPassword" />
+
+            <input type="submit" name="submit" id="submit" value="Create Account">
+          </form>
+          <p class="has-account">Already have an account? <a href="#">Log in</a></p>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./script.js"></script>
 </html>
