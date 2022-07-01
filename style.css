@@ -3,8 +3,9 @@
   padding: 0px;
   font-family: sans-serif;
 }
-html, body {
-    height: 100%;
+html,
+body {
+  height: 100%;
 }
 .main {
   display: flex;
@@ -19,63 +20,92 @@ html, body {
   height: 100%;
 }
 .side-form {
-    width: 60%;
-    padding: 0px;
-    background-color: rgb(248, 248, 248);
+  width: 60%;
+  padding: 0px;
+  background-color: rgb(248, 248, 248);
 }
-.para{
-    padding: 3em;
-    padding-top: 100px;
-    padding-bottom: 50px;
+.para {
+  padding: 3em;
+  padding-top: 100px;
+  padding-bottom: 50px;
 }
 .para p {
-    font-size: 24px;
-    font-weight: 600;
+  font-size: 24px;
+  font-weight: 600;
 }
 .inner-form {
-    padding: 3em;
-    padding-top: 25px;
-    background-color: #fff;
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.15);
+  padding: 3em;
+  padding-top: 25px;
+  background-color: #fff;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.15);
 }
 .form-legend {
-    font-size: 18px;
-    font-weight: 600;
-    padding-bottom: 20px;
+  font-size: 18px;
+  font-weight: 600;
+  padding-bottom: 20px;
 }
 #submit {
-    margin: 4em;
-    margin-bottom: 15px;
-    padding: 14px;
-    border-radius: 7px;
-    background-color: rgb(13, 126, 239);
-    color: #fff;
-    border: 0px;
+  margin: 4em;
+  margin-bottom: 15px;
+  padding: 14px;
+  border-radius: 7px;
+  background-color: rgb(13, 126, 239);
+  color: #fff;
+  border: 0px;
 }
 .has-account {
-    margin-left: 3.5em;
-    font-size: 15px;
+  margin-left: 3.5em;
+  font-size: 15px;
 }
 .inputs {
-    display: grid;
-    grid-template-columns: 200px 200px;
-    grid-template-rows: 50px 50px 50px;
-    column-gap: 100px;
-    row-gap: 10px;
+  display: grid;
+  grid-template-columns: 200px 200px;
+  grid-template-rows: 50px 50px 50px;
+  column-gap: 100px;
+  row-gap: 10px;
 }
-.inputs label{
-    font-family: sans-serif;
-    color: rgb(37, 37, 37);
-    font-size: 13px;
-    padding-left: 3px;
+.inputs label {
+  font-family: sans-serif;
+  color: rgb(37, 37, 37);
+  font-size: 13px;
+  padding-left: 3px;
 }
-.inputs input{
-    padding: 6px;
-    border-radius: 6px;
-    border: 1px solid rgb(198, 198, 198);
+.inputs input {
+  padding: 6px;
+  border-radius: 6px;
+  border: 1px solid rgb(198, 198, 198);
 }
 input:focus {
+  outline: none !important;
+  border: 2px solid rgb(13, 126, 239);
+  box-shadow: 0px 1px 5px rgb(13, 126, 239);
+}
+input:invalid {
     outline: none !important;
-    border: 2px solid rgb(13, 126, 239);
-    box-shadow: 0px 3px 10px rgb(13, 126, 239);
+    border: 2px solid red;
+}
+.logo {
+  position: absolute;
+  top: 70%;
+  background-color: rgba(0, 0, 0, 0.15);
+  width: inherit;
+  padding: 50px 0px 50px 0px;
+}
+.logo h1 {
+  color: #fff;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.credit {
+    position: absolute;
+    top: 95%;
+    width: inherit;
+}
+.credit p {
+    text-align: center;
+    font-size: 15px;
+    color: #fff;
+}
+.credit p a{
+    color: #fff;
 }

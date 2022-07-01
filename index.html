@@ -15,6 +15,8 @@
           alt="aeroplane"
           class="side-hero-image"
         />
+        <div class="logo"><h1>Sunil's Form</h1></div>
+        <div class="credit"><p>Photo by <a href="https://unsplash.com/@mr_mgk">Marios Gkortsilas</a></p></div>
       </div>
       <div class="side-form">
         <div class="main-form">
@@ -53,19 +55,19 @@
                   <label for="phonenumber" class="phonenumber"
                     >Phone Number</label
                   >
-                  <input type="numver" id="phonenumber" />
+                  <input type="numver" id="phonenumber" maxlength="10" minlength="10" />
                 </div>
 
                 <div class="five">
-                  <label for="password" class="password">Password</label>
-                  <input type="password" id="password" />
+                  <label for="password" class="password">Password (min 8 characters)</label>
+                  <input type="password" id="password" required minlength="8" />
                 </div>
 
                 <div class="six">
                   <label for="confirmPassword" class="confirm-password"
                     >Confirm Passowrd</label
                   >
-                  <input type="password" id="confirmPassword" />
+                  <input type="password" id="confirmPassword" required minlength="8" />
                 </div>
               </div>
             </div>
